@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B. Esakki Kalaivani | MERN Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<!-- ===== NAVBAR ===== -->
+<nav id="navbar">
+  <a href="#home" class="logo">B.EK</a>
+  <div class="nav-links">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-right">
+    <button class="theme-btn" onclick="toggleTheme()" title="Toggle theme">☀️</button>
+    <a href="kalaivani.pdf" target="_blank" download class="resume-nav-btn">
+      <i class='bx bx-download'></i> Resume
+    </a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="home">
+  <div class="hero-blob1"></div>
+  <div class="hero-blob2"></div>
+  <div class="hero-content">
+    <div class="badge">
+      <span class="badge-dot"></span>
+      Open to opportunities · Bangalore, India
+    </div>
+    <h1 class="hero-name">Hi, I'm<br><span class="grad">B. Esakki Kalaivani</span></h1>
+    <div class="typed-wrap">
+      <span id="typed-text"></span><span class="typed-cursor"></span>
+    </div>
+    <p class="hero-desc">
+      MERN Stack Developer with a strong frontend focus — building responsive, user-friendly web applications that create real impact.
+    </p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-glow">
+        <i class='bx bx-send'></i> Hire Me
+      </a>
+      <a href="kalaivani.pdf" target="_blank" class="btn-glow" style="background:transparent;border:1.5px solid var(--border);color:var(--text);box-shadow:none;">
+        <i class='bx bx-download'></i> Download Resume
+      </a>
+      <a href="#projects" class="btn-outline-hero">
+        <i class='bx bx-code-alt'></i> View Projects
+      </a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://linkedin.com" target="_blank" class="soc-btn" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com" target="_blank" class="soc-btn" title="GitHub"><i class='bx bxl-github'></i></a>
+      <a href="https://wa.me/916384086409" target="_blank" class="soc-btn" title="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+      <a href="mailto:esakkikalaivani2004@gmail.com" class="soc-btn" title="Email"><i class='bx bx-envelope'></i></a>
+      <a href="https://instagram.com" target="_blank" class="soc-btn" title="Instagram"><i class='bx bxl-instagram'></i></a>
+    </div>
+  </div>
+
+  <!-- HERO RIGHT IMAGE -->
+  <div class="hero-right">
+    <div class="profile-wrap">
+      <div class="profile-ring-outer"></div>
+      <div class="profile-img-wrap">
+        <img src="pose3.jpg" alt="Kalaivani" onerror="this.style.display='none';this.parentElement.innerHTML='<div style=\'display:flex;align-items:center;justify-content:center;height:100%;font-family:Syne,sans-serif;font-size:80px;font-weight:800;background:linear-gradient(135deg,#a855f7,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;\'>BEK</div>'">
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="rev"><div class="sec-tag">Who I Am</div></div>
+  <div class="rev d1"><div class="sec-title">About <span>Me</span></div></div>
+  <div class="rev d2"><div class="sec-line"></div></div>
+
+  <div class="about-grid">
+    <div class="about-img-wrap rev left">
+      <div class="about-img-box">
+        <img src="pose2.jpg" alt="About Kalaivani" onerror="this.style.cssText='display:flex;align-items:center;justify-content:center;height:480px;font-size:120px;background:linear-gradient(135deg,rgba(168,85,247,0.1),rgba(6,182,212,0.1));'">
+      </div>
+      <div class="exp-card">
+        <div class="exp-num">MERN</div>
+        <div class="exp-label">Stack Developer</div>
+      </div>
+    </div>
+
+    <div class="about-text-area rev right">
+      <p>I am a passionate MERN Stack Developer with strong hands-on experience in building responsive, user-friendly, and dynamic web applications using MongoDB, Express.js, React, and Node.js.</p>
+      <p>I enjoy developing complete full-stack solutions — from designing clean, interactive user interfaces to building secure and efficient backend APIs. My goal is to grow as a developer, work on meaningful projects, and contribute effectively to a professional team.</p>
+
+      <div class="about-stats">
+        <div class="a-stat">
+          <div class="a-stat-num">4+</div>
+          <div class="a-stat-label">Projects</div>
+        </div>
+        <div class="a-stat">
+          <div class="a-stat-num">7+</div>
+          <div class="a-stat-label">Skills</div>
+        </div>
+        <div class="a-stat">
+          <div class="a-stat-num">100%</div>
+          <div class="a-stat-label">Dedication</div>
+        </div>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="lbl">Name</div>
+          <div class="val">B. Esakki Kalaivani</div>
+        </div>
+        <div class="info-item">
+          <div class="lbl">Role</div>
+          <div class="val">MERN Stack Developer</div>
+        </div>
+        <div class="info-item">
+          <div class="lbl">Location</div>
+          <div class="val">Bangalore, India</div>
+        </div>
+        <div class="info-item">
+          <div class="lbl">Email</div>
+          <div class="val" style="font-size:12px;">esakkikalaivani2004@gmail.com</div>
+        </div>
+        <div class="info-item">
+          <div class="lbl">Phone</div>
+          <div class="val">+91 63840 86409</div>
+        </div>
+        <div class="info-item">
+          <div class="lbl">Status</div>
+          <div class="val available">✦ Available for Work</div>
+        </div>
+      </div>
+
+      <a href="kalaivani.pdf" target="_blank" download class="resume-big-btn">
+        <i class='bx bx-download'></i>
+        Download My Resume
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects">
+  <div class="rev"><div class="sec-tag">What I Built</div></div>
+  <div class="rev d1"><div class="sec-title">My <span>Projects</span></div></div>
+  <div class="rev d2"><div class="sec-line"></div></div>
+
+  <div class="projects-grid">
+    <div class="proj-card rev d1">
+      <div class="proj-img">
+        <!-- Replace netflix.png with your actual project screenshot filename -->
+        <img src="netflix.png" alt="Netflix Clone" onerror="this.parentElement.style.cssText='background:linear-gradient(135deg,#e50914,#8b0000);display:flex;align-items:center;justify-content:center;font-size:60px;';this.style.display='none';">
+        <div class="proj-img-overlay"></div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-icon-row">
+          <div class="proj-emoji">🎬</div>
+        </div>
+        <h3>Netflix Clone</h3>
+        <p>A fully responsive Netflix UI clone with movie listings, hero banner, and category rows. Clean layout with smooth hover effects.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Bootstrap</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-card rev d2">
+      <div class="proj-img">
+        <!-- Replace netflix1.png with your actual project screenshot filename -->
+        <img src="netflix1.png" alt="Netflix Design" onerror="this.parentElement.style.cssText='background:linear-gradient(135deg,#1a1a2e,#e50914,#16213e);display:flex;align-items:center;justify-content:center;font-size:60px;';this.style.display='none';">
+        <div class="proj-img-overlay"></div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-icon-row">
+          <div class="proj-emoji">🎨</div>
+        </div>
+        <h3>Netflix UI Design</h3>
+        <p>A pixel-perfect Netflix landing page redesign focusing on typography, color contrast, and modern visual hierarchy.</p>
+        <div class="tags">
+          <span class="tag">UI Design</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Responsive</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-card rev d3">
+      <div class="proj-img">
+        <!-- Replace portfolio.png with your actual project screenshot filename -->
+        <img src="portfolio.png" alt="Portfolio" onerror="this.parentElement.style.cssText='background:linear-gradient(135deg,#a855f7,#06b6d4);display:flex;align-items:center;justify-content:center;font-size:60px;';this.style.display='none';">
+        <div class="proj-img-overlay"></div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-icon-row">
+          <div class="proj-emoji">💼</div>
+        </div>
+        <h3>Personal Portfolio</h3>
+        <p>My personal developer portfolio with animated sections, skills display, project showcase, and a working contact form.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Bootstrap</span>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-card rev d4">
+      <div class="proj-img">
+        <!-- Replace project.jpg with your actual project screenshot filename -->
+        <img src="project.jpg" alt="Smart Light" onerror="this.parentElement.style.cssText='background:linear-gradient(135deg,#f59e0b,#d97706);display:flex;align-items:center;justify-content:center;font-size:60px;';this.style.display='none';">
+        <div class="proj-img-overlay"></div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-icon-row">
+          <div class="proj-emoji">💡</div>
+        </div>
+        <h3>Smart Light Switch</h3>
+        <p>Smartphone Controlled Light Switching System — IoT-based project enabling wireless control of electrical circuits via mobile.</p>
+        <div class="tags">
+          <span class="tag">IoT</span>
+          <span class="tag">Hardware</span>
+          <span class="tag">Mobile</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills">
+  <div class="rev"><div class="sec-tag">What I Know</div></div>
+  <div class="rev d1"><div class="sec-title">My <span>Skills</span></div></div>
+  <div class="rev d2"><div class="sec-line"></div></div>
+
+  <div class="skills-grid">
+    <div class="rev left" id="skill-bars-wrap">
+      <div class="skill-group-title">Technical Skills</div>
+      <div class="skill-item">
+        <div class="skill-top">
+          <span class="skill-name"><i class='bx bxl-html5'></i> HTML5</span>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="track"><div class="fill" data-w="90"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top">
+          <span class="skill-name"><i class='bx bxl-css3'></i> CSS3</span>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="track"><div class="fill" data-w="80"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top">
+          <span class="skill-name"><i class='bx bxl-javascript'></i> JavaScript</span>
+          <span class="skill-pct">75%</span>
+        </div>
+        <div class="track"><div class="fill" data-w="75"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top">
+          <span class="skill-name"><i class='bx bxl-react'></i> React.js</span>
+          <span class="skill-pct">78%</span>
+        </div>
+        <div class="track"><div class="fill" data-w="78"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top">
+          <span class="skill-name"><i class='bx bxl-nodejs'></i> Node.js</span>
+          <span class="skill-pct">70%</span>
+        </div>
+        <div class="track"><div class="fill" data-w="70"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top">
+          <span class="skill-name"><i class='bx bxl-mongodb'></i> MongoDB</span>
+          <span class="skill-pct">70%</span>
+        </div>
+        <div class="track"><div class="fill" data-w="70"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-top">
+          <span class="skill-name"><i class='bx bxl-bootstrap'></i> Bootstrap</span>
+          <span class="skill-pct">75%</span>
+        </div>
+        <div class="track"><div class="fill" data-w="75"></div></div>
+      </div>
+    </div>
+
+    <div class="rev right">
+      <div class="skill-group-title">Professional Skills</div>
+      <div class="pro-grid">
+        <div class="pro-card">
+          <div class="pro-num">90%</div>
+          <div class="pro-label">🎨 Creativity</div>
+        </div>
+        <div class="pro-card">
+          <div class="pro-num">70%</div>
+          <div class="pro-label">💬 Communication</div>
+        </div>
+        <div class="pro-card">
+          <div class="pro-num">80%</div>
+          <div class="pro-label">🧠 Problem Solving</div>
+        </div>
+        <div class="pro-card">
+          <div class="pro-num">90%</div>
+          <div class="pro-label">🤝 Teamwork</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="rev"><div class="sec-tag">Get In Touch</div></div>
+  <div class="rev d1"><div class="sec-title">Contact <span>Me</span></div></div>
+  <div class="rev d2"><div class="sec-line"></div></div>
+
+  <div class="contact-grid">
+    <div class="contact-left rev left">
+      <h3>Let's Work Together! 🤝</h3>
+      <p>I am a passionate fresher eager to learn and grow. If you have an opportunity or project idea, feel free to reach out!</p>
+      <div class="c-item">
+        <div class="c-icon"><i class='bx bxl-gmail'></i></div>
+        <div>
+          <div class="c-lbl">Email</div>
+          <div class="c-val">esakkikalaivani2004@gmail.com</div>
+        </div>
+      </div>
+      <div class="c-item">
+        <div class="c-icon"><i class='bx bx-phone'></i></div>
+        <div>
+          <div class="c-lbl">Phone</div>
+          <div class="c-val">+91 63840 86409</div>
+        </div>
+      </div>
+      <div class="c-item">
+        <div class="c-icon"><i class='bx bx-map'></i></div>
+        <div>
+          <div class="c-lbl">Location</div>
+          <div class="c-val">Bangalore, India</div>
+        </div>
+      </div>
+      <div class="social-row">
+        <a href="https://linkedin.com" target="_blank" class="soc2"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com" target="_blank" class="soc2"><i class='bx bxl-github'></i></a>
+        <a href="https://wa.me/916384086409" target="_blank" class="soc2"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://instagram.com" target="_blank" class="soc2"><i class='bx bxl-instagram'></i></a>
+        <a href="https://facebook.com" target="_blank" class="soc2"><i class='bx bxl-facebook'></i></a>
+      </div>
+    </div>
+
+    <div class="form-box rev right">
+      <form id="contactForm">
+        <div class="f-row">
+          <div class="f-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="John Doe" required>
+          </div>
+          <div class="f-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="john@email.com" required>
+          </div>
+        </div>
+        <div class="f-group">
+          <label>Your Role / Company</label>
+          <input type="text" placeholder="HR Manager at XYZ Company">
+        </div>
+        <div class="f-group">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+        </div>
+        <button type="submit" class="send-btn">
+          <i class='bx bx-send'></i> Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-logo">B.EK</div>
+  <p>Designed & Built with 💜 by B. Esakki Kalaivani</p>
+  <div class="footer-soc">
+    <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+    <a href="https://github.com" target="_blank"><i class='bx bxl-github'></i></a>
+    <a href="mailto:esakkikalaivani2004@gmail.com"><i class='bx bx-envelope'></i></a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
